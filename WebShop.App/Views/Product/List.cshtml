@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebShop.App.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List of Products</h1>
+
+<p>
+    <button type="button" class="btn btn-light"><a asp-action="Create">Create New Product</a></button>
+</p>
+<table class="table table-bordered">
+    <thead>
+         <tr class="btn-primary">  
+            <th>
+                Id
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                Create Date
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+ @if (ViewBag.Alert != null)
+    {
+    <script>
+    alert("@ViewBag.Alert");
+    </script>
+    }

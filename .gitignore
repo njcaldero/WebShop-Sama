@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/WebShop.App/obj
+/WebShop.DataBase/obj/Debug
+/WebShop.Data.Manager/obj
+/WebShop.Data.InMemory/obj
+/WebShop.Data/obj
+/WebShop.Core/obj

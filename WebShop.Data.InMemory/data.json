@@ -1,0 +1,23 @@
+[
+  {
+    "ProductId": 1,
+    "Title": "Basics 3-Button Wired USB Computer Mouse, Black",
+    "Description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ.",
+    "Price": 8,
+    "CreateDate": "02/04/2022"
+  },
+  {
+    "ProductId": 2,
+    "Title": "Basics USB Wired Computer Keyboard",
+    "Description": "Low-profile keys provide a quiet, comfortable typing experience.",
+    "Price": 21,
+    "CreateDate": "02/04/2022"
+  },
+  {
+    "ProductId": 3,
+    "Title": "VIOTEK GFV22CB Ultra-Compact 22-Inch 144Hz Gaming Monitor",
+    "Description": "BIG GAINS, COMPACT SIZE — 1920 x 1080p monitor resolution. 5ms response time. Blistering 144Hz.",
+    "Price": 99,
+    "CreateDate": "02/04/2022"
+  }
+]
